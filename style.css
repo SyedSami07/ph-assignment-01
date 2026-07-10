@@ -1,0 +1,131 @@
+/* common things */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.common-btn{
+  padding: 12px 30px;
+  background-color: #1D4ED8;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+section{
+    padding: 90px 8%;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* common things end */
+
+
+/* navbar design */
+.nav-parent{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 18px 8%;
+    
+}
+
+.nav-parent ul{
+    display: flex;
+    list-style: none; 
+    gap: 20px;
+   
+   
+}
+
+.nav-parent ul a{
+    text-decoration: none;
+    color: #575757;
+}
+/* navbar design end */
+
+
+/* header design */
+header{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/banner.jpg');
+    width: 100%;
+    min-height: 60vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+}
+.header-content{
+   color: white;
+   text-align: center;
+   display: grid;
+   gap: 20px;
+}
+
+.header-content button{
+    margin: 0 35%;
+    margin-top: 35%;
+}
+.header-content h1{
+    font-size: 50px;
+}
+
+.speaker-section h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.card-parent{
+    display: flex;
+    gap: 32px;           
+    padding: 0 8%;
+   
+}
+.card-parent .info{
+    padding: 0 15px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 8px;    
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    
+    
+}
+.card img{
+    width: 100%;
+}
+
+
+
+.card-title{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #1D4ED8;
+}
+
+.card-company{
+    font-size: px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #575757;
+}
+/* header design end */
+
