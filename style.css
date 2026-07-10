@@ -58,7 +58,7 @@ header{
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('./images/banner.jpg');
     width: 100%;
-    min-height: 60vh;
+    min-height: 90vh;
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -75,7 +75,7 @@ header{
 
 .header-content button{
     margin: 0 35%;
-    margin-top: 35%;
+    margin-top: 75%;
 }
 .header-content h1{
     font-size: 50px;
@@ -115,14 +115,14 @@ header{
 
 
 .card-title{
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 10px;
     margin-bottom: 5px;
     color: #1D4ED8;
 }
 
 .card-company{
-    font-size: px;
+    font-size: 14px;
     margin-top: 5px;
     margin-bottom: 15px;
     color: #575757;
@@ -237,6 +237,7 @@ header{
 
 
 
+
 .pricing-card .dot{
     color: #60A5FA;
     font-weight: bold;
@@ -251,7 +252,9 @@ header{
     border: 1px solid #2563EB;
     background-color: white;
 }
-
+.pricing-button-1 span{
+    color:#2563EB ;
+}
 .pricing-button-3{
     width: 100%;
     padding: 12px;
