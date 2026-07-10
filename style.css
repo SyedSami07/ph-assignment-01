@@ -397,3 +397,43 @@ header{
 }
 
 /* PLACEHOLDER SECTION — AI CHALLENGE design ends */
+
+
+/* footer design starts */
+footer {
+    background-color: #0D1B2A;
+    padding: 30px 8%;
+    font-family: sans-serif;
+}
+
+.footer-socials {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-socials a {
+    color: #ffffff73;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.footer p{
+    color: #ffffff73;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-sub a {
+    color: #ffffff73;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* footer design ends */
