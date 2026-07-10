@@ -213,7 +213,7 @@ header{
 }
 .dark-card p {
     color: #FFFFFF;  
-        /* Subtle light text for dark card */
+       
 }
 
 
@@ -232,7 +232,7 @@ header{
 }
 
 .card-list p {
-    margin-bottom: 10px;     /* Spaces out each line item */
+    margin-bottom: 10px; 
 }
 
 
@@ -261,3 +261,139 @@ header{
     border: 1px solid black;
     background-color: white;
 }
+
+
+/* pricing section design ends */
+
+
+/* PLACEHOLDER SECTION — AI CHALLENGE design starts */
+
+/* --- Tracks Section Background & Frame --- */
+.tracks-section {
+    background-color: #ffffff; /* Clean contrast swap from the light gray pricing section */
+    padding: 80px 8%;          /* Consistent margins keeping navbar grids aligned */
+}
+
+.tracks-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tracks-header h1 {
+    font-size: 36px;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.tracks-header p {
+    color: #64748b;
+    font-size: 16px;
+}
+
+/* --- 4-Column Flex Layout Track --- */
+.tracks-parent {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* --- Individual Track Grid Boxes --- */
+.track-card {
+    flex: 1;                     /* Spreads all 4 column cards completely evenly */
+    background-color: #f8fafc;   /* Ultra-subtle gray box tint */
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px 24px;
+    transition: transform 0.2s ease; /* Basic smooth micro-interaction for UX feel */
+}
+
+/* Simple, safe hover interaction to make the Figma spec feel alive */
+.track-card:hover {
+    transform: translateY(-5px); /* Gentle lift effect when cursor hovers */
+    border-color: #1D4ED8;       /* Accents card border with your signature blue */
+}
+
+/* Inner Box Elements */
+.track-icon {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.track-card h3 {
+    font-size: 20px;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.track-card p {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;            /* Essential line-height to make long sentences readable */
+}
+
+/* PLACEHOLDER SECTION — AI CHALLENGE design starts */
+
+.tracks-section {
+    background-color: #ffffff; 
+    padding: 90px 8%;          /* Reuses your exact global speaker section paddings */
+}
+
+.tracks-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tracks-header h1 {
+    font-size: 50px;           /* Perfectly matches your speaker and pricing header sizing scale */
+    color: #0D1B2A;            /* Matches your primary deep slate color */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tracks-header p {
+    color: #575757;            /* Unified with your global body/paragraph text colors */
+    font-size: 16px;
+}
+
+/* --- 4-Column Flex Layout Track --- */
+.tracks-parent {
+    display: flex;
+    gap: 32px;                 /* Syncs cleanly with your .card-parent grid system */
+    justify-content: center;
+}
+
+/* --- Individual Track Grid Boxes --- */
+.track-card {
+    flex: 1;                   /* Forces cards to share layout horizontal real estate flawlessly */
+    background-color: #F8F9FB; /* Borrowed cleanly from your .off-white card color rules */
+    border: 1px solid rgba(0, 0, 0, 0.05); /* Direct match to speaker card strokes */
+    border-radius: 12px;
+    padding: 35px 25px;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+/* Figma micro-interaction hover state */
+.track-card:hover {
+    transform: translateY(-5px);
+    border-color: #2563EB;     /* Highlights cleanly with your main royal blue brand color */
+}
+
+/* Inner Box Styling Elements */
+.track-icon {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.track-card h3 {
+    font-size: 22px;
+    color: #0D1B2A;
+    margin-bottom: 12px;
+}
+
+.track-card p {
+    font-size: 14px;
+    color: #575757;
+    line-height: 1.6;          /* Clean readability configuration for text descriptions */
+}
+
+/* PLACEHOLDER SECTION — AI CHALLENGE design ends */
